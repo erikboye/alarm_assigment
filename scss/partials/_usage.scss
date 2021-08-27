@@ -1,0 +1,54 @@
+/* 
+  1.Variable usage
+*/
+// .btn {
+// 	background-color: $primary-color;
+// 	color: $secondary-color;
+// }
+
+// .btn:hover {
+// 	background-color: $secondary-color;
+// 	color: $primary-color;
+// }
+
+/* 
+  2. Using maps
+*/
+
+// .btn {
+// 	background-color: map-get($btn, 'primary');
+// 	color: map-get($btn, 'secondary');
+// }
+
+// .card {
+// 	background-color: map-get($card, 'backgroud-color');
+// 	color: map-get($card, 'text-color');
+// }
+
+/* 
+  3. Mixins
+*/
+
+// body {
+// 	// @include gradient(#008793, #00bf72, #a8eb12);
+// 	@include gradient(hotpink, purple, lightblue);
+// 	background-repeat: no-repeat;
+// 	height: 100vh;
+// }
+
+// .card {
+// 	@include gradient(yellow, green, hotpink);
+// }
+
+/* 
+  4. Inheritance
+*/
+
+// .btn {
+// 	@extend .general-button;
+// 	color: $primary-color;
+// }
+
+/* 
+  4. Nesting + BEM
+*/

@@ -1,0 +1,37 @@
+header {
+  width: 100%;
+}
+
+.nav-link {
+  color: white;
+}
+
+.navbar {
+  background-color: transparent !important ;
+  font-family: "Montserrat", sans-serif;
+}
+
+.logo-div {
+  width: 10%;
+  margin-right: 20%;
+}
+
+.logo {
+  width: 100%;
+}
+
+.navbar-nav {
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.btn-primary {
+  background-color: transparent;
+  border: none;
+}
+
+.btn-secondary {
+  background-color: transparent;
+  border-radius: 20px;
+}

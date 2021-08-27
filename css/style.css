@@ -1,0 +1,148 @@
+/* remember variables is always the 1st stylesheet you import
+   order of the imports matter
+*/
+/* 
+  All variable names start with a dollar sign
+*/
+.general-button, .form__submit {
+  border-radius: 0px;
+  width: 100%;
+}
+
+/* 
+  1.Variable usage
+*/
+/* 
+  2. Using maps
+*/
+/* 
+  3. Mixins
+*/
+/* 
+  4. Inheritance
+*/
+/* 
+  4. Nesting + BEM
+*/
+.form {
+  padding: 20px;
+  /* 1st way of doing it bad way of doing it */
+  /* 2nd way of doing correctly BEM */
+}
+
+.form__label {
+  font-size: 20px;
+}
+
+.form__input {
+  width: 100%;
+}
+
+.form__textArea {
+  width: 100%;
+  height: 300px;
+}
+
+.form__submit {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 10px;
+  border: none;
+}
+
+header {
+  width: 100%;
+}
+
+.nav-link {
+  color: white;
+}
+
+.navbar {
+  background-color: transparent !important;
+  font-family: "Montserrat", sans-serif;
+}
+
+.logo-div {
+  width: 10%;
+  margin-right: 20%;
+}
+
+.logo {
+  width: 100%;
+}
+
+.navbar-nav {
+  width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.btn-primary {
+  background-color: transparent;
+  border: none;
+}
+
+.btn-secondary {
+  background-color: transparent;
+  border-radius: 20px;
+}
+
+.first-quote {
+  height: 80vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.middle-quote {
+  width: 50%;
+  color: white;
+  display: block;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 8%;
+}
+
+.world-text {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
+  margin-bottom: 30px;
+  font-size: 81px;
+  font-weight: bold;
+}
+
+.red {
+  color: red;
+}
+
+.back-img {
+  background-image: url(/img/header-background.png);
+  background-size: cover;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.nextline {
+  display: block;
+}
+
+.btn-danger {
+  border-radius: 30px;
+  background-color: rgba(255, 92, 99, 0.16);
+  color: red;
+  margin-top: 30px;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,11 @@
+// https://mycolor.space/gradient?ori=to+right+top&hex=%23051937&hex2=%23A8EB12&sub=1
+// stole the code from there
+
+@mixin gradient($color-one, $color-two, $color-three) {
+	background-image: linear-gradient(
+		to left top,
+		$color-one,
+		$color-two,
+		$color-three
+	);
+}
