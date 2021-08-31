@@ -157,6 +157,13 @@ header {
           flex-direction: column;
 }
 
+.fa-google,
+.fa-twitter,
+.fa-facebook-f {
+  margin-top: 60px;
+  font-size: 3rem;
+}
+
 .col-sm-4,
 .col-sm-8 {
   display: block;
@@ -174,11 +181,10 @@ header {
   margin-bottom: 50px;
 }
 
-.board1,
-.board2,
-.board3,
-.board4 {
+.board1 {
   border: 2px solid hotpink;
   background-image: url(../../img/board1.png);
+  height: 100%;
+  width: 100%;
 }
 /*# sourceMappingURL=style.css.map */
