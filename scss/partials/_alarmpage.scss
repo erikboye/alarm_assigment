@@ -1,0 +1,43 @@
+.alarm-page {
+  background-image: url(../../img/alarm-background.png);
+  background-size: cover;
+  width: 100vw;
+  height: 1200px;
+  margin-top: 100px;
+}
+
+.alarm_topdiv {
+  width: 100%;
+}
+
+.alarm_toptext {
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+.alarm_maintext {
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  font-size: 3rem;
+}
+
+.alarm_box {
+  height: 300px;
+  width: 500px;
+  border-radius: 40px;
+  background-color: white;
+  margin: auto;
+  margin-top: 200px;
+}
+
+.smartsensor {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+  padding: 30px 0px 0px 50px;
+}
+.sensortext {
+  font-family: "Montserrat", sans-serif;
+  padding: 0px 0px 50px 50px;
+}

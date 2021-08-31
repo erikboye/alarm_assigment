@@ -20,6 +20,17 @@
   background-repeat: no-repeat;
   background-position: center;
   margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.playbutton {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .board1 {
@@ -38,13 +49,12 @@
   background-image: url(../../img/board4.png);
 }
 
-.board1-maintext,
-.board1-subtext {
+.vid-maintext,
+.vid-subtext {
   color: white;
 }
 
-.textholder1 {
-  border: 2px solid hotpink;
-  height: 400px;
-  width: 50%;
+.textholder {
+  margin: 50px 0px 40px 40px;
+  width: 100%;
 }
