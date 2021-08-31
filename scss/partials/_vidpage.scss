@@ -1,0 +1,23 @@
+.col-sm-4,
+.col-sm-8 {
+  display: block;
+}
+
+.vid-small-text {
+  font-family: "Montserrat", sans-serif;
+}
+
+.vid-big-text {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
+  font-size: 40px;
+  width: 40%;
+  margin-bottom: 50px;
+}
+
+.board1 {
+  border: 2px solid hotpink;
+  background-image: url(../../img/board1.png);
+  height: 100%;
+  width: 100%;
+}
