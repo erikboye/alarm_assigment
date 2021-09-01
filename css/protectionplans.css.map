@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,sBAAsB,CAAC;EACrB,UAAU,EAAE,IAAI;EAChB,MAAM,EAAE,GAAG,CAAC,KAAK,CAAC,OAAe;EACjC,KAAK,EAAE,IAAI;CACZ;;AAED,AAAA,gBAAgB,CAAC;EACf,UAAU,EAAE,MAAM;EAClB,MAAM,EAAE,KAAK;CACd",
+    "sources": [
+        "../scss/partials/protectionplans.scss"
+    ],
+    "names": [],
+    "file": "protectionplans.css"
+}
