@@ -7,9 +7,71 @@
   text-align: center;
   height: 100px;
   width: 100%;
+  font-family: "Montserrat", sans-serif;
 }
 
 .form-check-input {
   margin: auto;
   width: 100%;
+}
+
+.switchbox {
+  display: flex;
+  justify-content: space-evenly;
+  font-family: "Montserrat", sans-serif;
+}
+
+.form-switch .form-check-input {
+  background-image: url(../../img/reddot.png);
+  width: 50px;
+}
+.redcard_stars {
+  color: white;
+}
+
+.whitecard_stars {
+  color: red;
+}
+
+.whitecard {
+  height: 500px;
+  border-radius: 10px;
+  font-family: "Montserrat", sans-serif;
+  box-shadow: -7px 8px 8px -5px rgba(0, 0, 0, 0.36);
+  -webkit-box-shadow: -7px 8px 8px -5px rgba(0, 0, 0, 0.36);
+  -moz-box-shadow: -7px 8px 8px -5px rgba(0, 0, 0, 0.36);
+
+  &__two {
+    height: 500px;
+    box-shadow: 17px 8px 8px -5px rgba(0, 0, 0, 0.36);
+    -webkit-box-shadow: 17px 8px 8px -5px rgba(0, 0, 0, 0.36);
+    -moz-box-shadow: 17px 8px 8px -5px rgba(0, 0, 0, 0.36);
+  }
+
+  &__top {
+    text-align: center;
+  }
+}
+
+.redcard {
+  font-family: "Montserrat", sans-serif;
+  min-height: 500px;
+  border-radius: 10px;
+  background-color: red;
+}
+
+.card_header {
+  margin-top: 30px;
+}
+
+.white_pricetag {
+  font-size: 2rem;
+}
+
+.checkmark {
+  color: red;
+}
+
+.whitecheckmark {
+  color: white;
 }
